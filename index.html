@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ITACE | Instituto Tamaulipeco de Capacitación para el Empleo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         AUDIO
+    =========================================== -->
+    <audio id="audioTema" loop>
+        <source src="himno.mpeg" type="audio/mpeg">
+    </audio>
+
+
+    <!-- ==========================================
+         PORTADA
+    =========================================== -->
+    <header class="portada" id="inicio">
+
+        <div class="portada-contenido">
+
+            <div class="portada-texto">
+
+                <img src="ita.webp" alt="Logo ITACE" class="logo-principal">
+
+                <span class="etiqueta">Instituto Tamaulipeco de Capacitación para el Empleo</span>
+
+                <h1>ITACE</h1>
+                <p class="lema-portada">Lealtad, Honor y Trabajo</p>
+
+                <h2>Formando estudiantes para el futuro</h2>
+
+                <p>
+                    Conoce nuestra historia, planteles, carreras,
+                    clubes, instalaciones, actividades y los logros
+                    que forman parte de nuestra comunidad estudiantil.
+                </p>
+
+                <div class="botones-portada">
+                    <a href="#historia" class="boton">Conocer el ITACE</a>
+                    <a href="#galeria" class="boton boton-claro">Ver galería</a>
+                </div>
+
+            </div>
+
+
+            <div class="portada-imagen">
+                <img src="instala.jpeg" alt="Instalaciones del ITACE">
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- REDES SOCIALES: PARTE SUPERIOR -->
+
+<div class="barra-redes" aria-label="Redes sociales del ITACE">
+    <span class="redes-titulo">Síguenos en Redes Sociales:</span>
+    <div class="redes-enlaces">
+        <a href="https://www.facebook.com/photo/?fbid=1100107391912832&set=a.601424555114454" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">f</a>
+        <a href="https://twitter.com/itacetam?s=21&t=T0-BaMD5f0TwxuCt0O5U9Q" target="_blank" rel="noopener" aria-label="X" title="X">𝕏</a>
+        <a href="https://www.youtube.com/@SistemaITACE" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">▶</a>
+        <a href="https://instagram.com/itace.tam?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">◎</a>
+    </div>
+</div>
+
+
+    <!-- ==========================================
+         MENU
+    =========================================== -->
+    <nav class="menu">
+
+        <div class="menu-logo">
+            <img src="ita.webp" alt="Logo ITACE">
+            <span>ITACE</span>
+        </div>
+
+        <div class="menu-enlaces">
+
+            <a href="#inicio">Inicio</a>
+            <a href="#historia">Historia</a>
+            <a href="#decalogo">Decálogo</a>
+            <a href="#planteles">Planteles</a>
+            <a href="#carreras">Carreras</a>
+            <a href="#clubes">Clubes</a>
+            <a href="#logros">Logros</a>
+            <a href="#instalaciones">Instalaciones</a>
+            <a href="#galeria">Galería</a>
+            <a href="#himnos-video">Videos</a>
+            <a href="#himnos-audio">Audios</a>
+            <a href="#video-final">Video final</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#noticias">Noticias</a>
+            <a href="#docentes">Docentes</a>
+            <a href="#admisiones">Admisiones</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#creditos-fuentes">Créditos</a>
+
+        </div>
+
+        <div class="controles">
+
+            <button id="temaBtn" onclick="cambiarTema()">
+                🌙 Oscuro
+            </button>
+
+            <button id="audioBtn" onclick="controlarAudio()">
+                🔊 Música: OFF
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+
+        <!-- ==========================================
+             PRESENTACIÓN
+        =========================================== -->
+        <section class="seccion presentacion">
+
+            <div class="titulo-seccion">
+                <span>Conoce nuestra escuela</span>
+                <h2>Bienvenidos al ITACE</h2>
+            </div>
+
+            <div class="presentacion-grid">
+
+                <div class="presentacion-imagen">
+                    <img src="instala.jpeg" alt="ITACE">
+                </div>
+
+                <div class="presentacion-texto">
+
+                    <h3>Una comunidad para aprender y crecer</h3>
+
+                    <p>
+                        El Instituto Tamaulipeco de Capacitación para el Empleo,
+                        mejor conocido como ITACE, es una institución dedicada
+                        a la formación y capacitación de estudiantes.
+                    </p>
+
+                    <p>
+                        Nuestra comunidad combina la preparación académica y
+                        técnica con actividades culturales, cívicas y
+                        estudiantiles.
+                    </p>
+
+                    <div class="mini-datos">
+
+                        <div class="mini-dato">
+                            <strong>4</strong>
+                            <span>Planteles</span>
+                        </div>
+
+                        <div class="mini-dato">
+                            <strong>1984</strong>
+                            <span>Inicio de su historia</span>
+                        </div>
+
+                        <div class="mini-dato">
+                            <strong>+</strong>
+                            <span>Educación y capacitación</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             MISIÓN, VISIÓN Y VALORES
+        =========================================== -->
+        <section class="seccion identidad-institucional" id="conocenos">
+            <div class="titulo-seccion">
+                <span>Conoce al ITACE</span>
+                <h2>Misión, visión y valores</h2>
+            </div>
+            <p class="introduccion">Conoce el propósito, las metas y los principios que orientan la formación de la comunidad ITACE.</p>
+            <div class="grid-identidad">
+                <article class="info-card">
+                    <img class="foto-apartado" src="mision.jpg" alt="Actividades de formación del ITACE">
+                    <div class="info-icono">🎯</div>
+                    <h3>Misión</h3>
+                    <p>Formar estudiantes preparados y capacitados mediante una educación técnica de calidad, desarrollando sus conocimientos, habilidades y valores para que puedan integrarse al mundo laboral y contribuir al desarrollo de la sociedad.</p>
+                </article>
+                <article class="info-card">
+                    <img class="foto-apartado" src="vision.jpg" alt="Comunidad educativa del ITACE">
+                    <div class="info-icono">👁️</div>
+                    <h3>Visión</h3>
+                    <p>Ser una institución educativa reconocida por su calidad académica y formación técnica, ofreciendo oportunidades de aprendizaje e innovación que permitan a los estudiantes construir un mejor futuro.</p>
+                </article>
+                <article class="info-card">
+                    <img class="foto-apartado" src="valores.jpg" alt="Valores de la comunidad ITACE">
+                    <div class="info-icono">⭐</div>
+                    <h3>Valores</h3>
+                    <p>Lealtad, honor, trabajo, respeto, responsabilidad, honestidad y compromiso. Estos valores impulsan la convivencia y el crecimiento de nuestra comunidad educativa.</p>
+                </article>
+            </div>
+            <p class="aviso-verificacion"><strong>Nota:</strong> estos textos son una propuesta para tu página; si tu escuela cuenta con una redacción oficial, utiliza esa versión.</p>
+        </section>
+
+        <!-- DECÁLOGO INSTITUCIONAL -->
+        <section class="seccion decalogo-seccion" id="decalogo">
+            <div class="titulo-seccion">
+                <span>Principios institucionales</span>
+                <h2>Decálogo del ITACE</h2>
+            </div>
+            <p class="introduccion">Conoce el decálogo institucional que guía la convivencia y el compromiso de nuestra comunidad educativa.</p>
+            <div class="decalogo-imagen">
+                <img src="decalogo.jpeg" alt="Decálogo institucional del ITACE">
+            </div>
+        </section>
+
+        <!-- ==========================================
+             HISTORIA
+        =========================================== -->
+        <section class="seccion historia" id="historia">
+
+            <div class="titulo-seccion">
+                <span>Nuestra trayectoria</span>
+                <h2>Historia del ITACE</h2>
+            </div>
+
+            <div class="historia-grid">
+
+                <div class="historia-texto">
+
+                    <h3>El comienzo de una gran institución</h3>
+
+                    <p>
+                        El Instituto Tamaulipeco de Capacitación para el Empleo
+                        comenzó su historia en <strong>1984</strong>, cuando fue
+                        fundado su primer plantel en
+                        <strong>Ciudad Victoria, Tamaulipas</strong>.
+                    </p>
+
+                    <p>
+                        Este plantel fue creado con el objetivo de preparar y
+                        capacitar a jóvenes para el empleo calificado,
+                        proporcionándoles conocimientos y habilidades útiles
+                        para su desarrollo.
+                    </p>
+
+                    <p>
+                        Posteriormente, en <strong>1991</strong>, se fundaron
+                        planteles en <strong>Altamira</strong> y
+                        <strong>Reynosa</strong>, ampliando la presencia
+                        del ITACE en Tamaulipas.
+                    </p>
+
+                </div>
+
+                <div class="historia-imagen">
+                    <img src="plantelfundador.jpg"
+                         alt="Historia del ITACE">
+                </div>
+
+            </div>
+
+
+            <!-- LÍNEA DEL TIEMPO -->
+            <div class="linea-tiempo">
+
+                <div class="evento">
+                    <div class="fecha">1984</div>
+
+                    <div class="evento-contenido">
+                        <h3>Primer plantel</h3>
+                        <p>
+                            Se funda el primer plantel del ITACE
+                            en Ciudad Victoria.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="evento">
+                    <div class="fecha">1991</div>
+
+                    <div class="evento-contenido">
+                        <h3>Nuevos planteles</h3>
+                        <p>
+                            Se fundan planteles en Altamira y Reynosa.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="evento">
+                    <div class="fecha">Hoy</div>
+
+                    <div class="evento-contenido">
+                        <h3>Una comunidad que continúa creciendo</h3>
+                        <p>
+                            El ITACE continúa preparando estudiantes
+                            mediante educación, capacitación y actividades.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             PLANTELES
+        =========================================== -->
+        <section class="seccion planteles" id="planteles">
+            <div class="titulo-seccion"><span>Presencia en Tamaulipas</span><h2>Nuestros 4 planteles</h2></div>
+            <p class="introduccion">El ITACE cuenta con cuatro planteles que forman parte de su comunidad educativa en Tamaulipas.</p>
+            <div class="grid-planteles">
+                <article class="plantel-card">
+                    <img class="foto-tarjeta" src="reynosa.jpeg">
+                    <div class="plantel-info">
+                        <span>Plantel</span><h3>Reynosa</h3>
+                        <p>Plantel del ITACE que brinda formación técnica de nivel medio superior.</p>
+                        <button class="boton-info-plantel" type="button" aria-expanded="false" aria-controls="detalle-reynosa" onclick="mostrarInfoPlantel('detalle-reynosa', this)">Más información <span>＋</span></button>
+                    </div>
+<div class="detalle-plantel" id="detalle-reynosa" hidden>
+                            <h4>Información del plantel Reynosa</h4>
+                            <p><strong>Ciudad:</strong> Reynosa, Tamaulipas.</p>
+                            <p><strong>Teléfono de contacto institucional:</strong> 899 924 0184.</p>
+                            <p><strong>Dirección:</strong>Calle Octava y Zaragoza No. 515, Col. Prolongación Las Cumbres. C.P. 88745 </p>
+                            <p><strong>Oferta educativa:</strong>- Mantenimiento Industrial
+                                                                -Mantenimiento Automotriz
+                                                                -Diseño Gráfico Digital
+                                                                -Ciberseguridad
+                                                                 -Semiconductores y Microelectrónica
+                                                                -Inteligencia Artificial
+                                                                -Logística</p>
+                            <p><strong>Instalaciones:</strong>aulas,talleres,laboratorios .</p>
+                            <p><strong>Historia:</strong>Este plantel se fundó en el año 1991, desde sus inicios ha respondió a las necesidades propias de la región, capacitando a técnicos profesionales que cumplen con las expectativas que la industria y sociedad requieren.
+
+Con fundamento en el Plan Nacional de Desarrollo del Gobierno de la República en el que establece a través del Programa Nacional para la Modernización Educativa, de que los Gobiernos de los Estados por medio de convenios con la Federación, funden Institutos Descentralizados de Capacitación Formal para el Trabajo; el Gobierno de Tamaulipas en acuerdo con el subsecretario de Educación e Investigación Tecnológica, decidió la fundación de dos Institutos de capacitación para el trabajo en las ciudades de Altamira y Reynosa, con esta decisión Tamaulipas fue el pionero de la descentralización de la Educación Tecnológica, firmándose el convenio el 26 de junio de 1991, en este documento se estipula que a partir de septiembre de 1991, funcionará el Instituto Tamaulipeco de capacitación para el Empleo, ITACE, con dos modalidades: Técnico Profesional y capacitación para y en el trabajo. .</p>
+                            <a class="enlace-ubicacion-plantel" href="https://maps.app.goo.gl/zn2Lz9Z27QGbUbfM7" target="_blank" rel="noopener">Ver ubicación en Google Maps ↗</a>
+                        </div>
+                </article>
+
+                <article class="plantel-card">
+                   <img class="foto-tarjeta" src="victoria.jpeg">
+                    <div class="plantel-info">
+                        <span>Primer plantel</span><h3>Ciudad Victoria</h3>
+                        <p>El primer plantel del ITACE fue fundado en Ciudad Victoria en 1984.</p>
+                        <button class="boton-info-plantel" type="button" aria-expanded="false" aria-controls="detalle-victoria" onclick="mostrarInfoPlantel('detalle-victoria', this)">Más información <span>＋</span></button>
+                    </div>
+<div class="detalle-plantel" id="detalle-victoria" hidden>
+                            <h4>Información del plantel Ciudad Victoria</h4>
+                            <p><strong>Ciudad:</strong> Ciudad Victoria, Tamaulipas.</p>
+                            <p><strong>Teléfono de contacto institucional:</strong> 834 316 4422.</p>
+                            <p><strong>Dirección:</strong> Boulevard Emilio Portes Gil No. 1836 Col. Nuevo Santander.</p>
+                            <p><strong>Historia:</strong> En 1984 se fundó en Cd. Victoria el primer plantel del Instituto Tamaulipeco de Capacitación para el Empleo (ITACE) cuyos objetivos iniciales fueron la formación de técnicos en mano de obra calificada y especializada.
+
+En el año de 1984, el Gobierno del Estado de Tamaulipas dentro de sus diversos programas de desarrollo de la entidad, se contempló la industrialización de la misma, para lo cual se consideró contar con mano de obra calificada y especializada, dando origen a la creación del Instituto Tamaulipeco de Capacitación para el Empleo (ITACE). Esta Institución nació a través de un decreto emitido por el Gobierno del Estado y aprobado por el Honorable Congreso del Estado, con personalidad jurídica y patrimonio propios, la administración del organismo está a cargo de un Consejo Directivo y su Presidente es el Gobernador del Estado. A partir de septiembre de 1994, la Secretaría de Educación Pública aprobó y envió recursos para la incorporación del Plantel Victoria..</p>
+                            <p><strong>Oferta educativa:</strong> Electricidad
+-Mantenimiento Industrial
+-Mantenimiento Automotriz
+-Soldadura Industrial
+-Producción de Prendas de Vestir
+-Ciberseguridad
+-Puericultura
+-Semiconductores y Microelectrónica
+-Inteligencia Artificial.</p>
+                            <p><strong>Instalaciones:</strong> Aulas, talleres, laboratorios y demás espacios.</p>
+                        
+                            <a class="enlace-ubicacion-plantel" href="https://maps.app.goo.gl/r1o1pDHT8XNsk8bU7" target="_blank" rel="noopener">Ver ubicación en Google Maps ↗</a>
+                        </div>
+                </article>
+                  
+                <article class="plantel-card">
+                    <img class="foto-tarjeta" src="altamira.jpeg">
+                    <div class="plantel-info">
+                        <span>Plantel</span><h3>Altamira</h3>
+                        <p>Plantel del ITACE ubicado en el municipio de Altamira, Tamaulipas.</p>
+                        <button class="boton-info-plantel" type="button" aria-expanded="false" aria-controls="detalle-altamira" onclick="mostrarInfoPlantel('detalle-altamira', this)">Más información <span>＋</span></button>
+                    </div>
+<div class="detalle-plantel" id="detalle-altamira" hidden>
+                            <h4>Información del plantel Altamira</h4>
+                            <p><strong>Ciudad:</strong> Altamira, Tamaulipas.</p>
+                            <p><strong>Teléfono de contacto institucional:</strong> 833 224 0353.</p>
+                            <p><strong>Dirección:</strong>Calle Galatea No. 801, Esq. Privada Noche Buena, Col. Monte Alto. C.P. 87608 .</p>
+                            <p><strong>Oferta educativa:</strong> Electricidad
+Mantenimiento Industrial
+Mantenimiento Automotriz
+Soldadura Industrial
+Producción de Prendas de Vestir
+Ciberseguridad
+Puericultura
+Semiconductores y Microelectrónica
+Inteligencia Artificial
+Robótica y Automatización.</p>
+                            <p><strong>Instalaciones:</strong> Agrega aquí aulas, talleres, laboratorios y demás espacios.</p>
+                            <p><strong>Historia:</strong>ste plantel inició sus actividades en 1991, desde entonces se ha preocupado por capacitar técnicos profesionales que la industria y la sociedad de la región requiere.
+
+Con fundamento en el Plan Nacional de Desarrollo del Gobierno de la República en el que establece a través del Programa Nacional para la Modernización Educativa, de que los Gobiernos de los Estados por medio de convenios con la federación, funden Institutos descentralizados de capacitación formal para el trabajo; el Gobierno de Tamaulipas en acuerdo con el Subsecretario de Educación e Investigación Tecnológica, decidió la creación de dos Institutos de Capacitación para el Trabajo en las ciudades de Altamira y Reynosa, con esta decisión Tamaulipas fue el pionero de la descentralización de la Educación Tecnológica, firmándose el convenio el 26 de junio de 1991, en este documento se estipula que a partir de septiembre de 1991, funcionará el Instituto Tamaulipeco de Capacitación para el Empleo, ITACE, con dos modalidades: Técnico Profesional y Capacitación para y en el Trabajo. </p>
+                            <a class="enlace-ubicacion-plantel" href="https://maps.app.goo.gl/EZuocMksQU42kbV47" target="_blank" rel="noopener">Ver ubicación en Google Maps ↗</a>
+                        </div>
+                </article>
+                
+                <article class="plantel-card">
+                   <img class="foto-tarjeta" src="matamoros.jpeg">
+                    <div class="plantel-info">
+                        <span>Plantel</span><h3>Matamoros</h3>
+                        <p>Plantel del ITACE que forma parte de la comunidad educativa de Tamaulipas.</p>
+                        <button class="boton-info-plantel" type="button" aria-expanded="false" aria-controls="detalle-matamoros" onclick="mostrarInfoPlantel('detalle-matamoros', this)">Más información <span>＋</span></button>
+                    </div>
+<div class="detalle-plantel" id="detalle-matamoros" hidden>
+                            <h4>Información del plantel Matamoros</h4>
+                            <p><strong>Ciudad:</strong> Matamoros, Tamaulipas.</p>
+                            <p><strong>Teléfono de contacto institucional:</strong> 868 810 1622.</p>
+                            <p><strong>Dirección:</strong> Km. 4 Sendero Nacional, Fracc. San Javier, Ejido Los Arados..</p>
+                            <p><strong>Oferta educativa:</strong> Mantenimiento Industrial
+-Máquinas – Herramienta
+-Soldadura Industrial
+-Diseño Gráfico Digital
+-Ciberseguridad
+-Puericultura
+-Semiconductores y Microelectrónica
+-Inteligencia Artificial.</p>
+                            <p><strong>Instalaciones:</strong> Aulas, talleres, laboratorios y demás espacios.</p>
+                            <p><strong>Historia:</strong>Es el plantel de más reciente creación, se fundó en el año 1993, desde esta fecha ha cumplido con su misión de proporcionar los mejores técnicos profesionales de acuerdo a las necesidades de la industria fronteriza y de la sociedad.
+
+Con fundamento en el Plan Nacional de Desarrollo del Gobierno de la República en el que establece a través del Programa Nacional para la Modernización Educativa, de que los Gobiernos de los Estados por medio de convenios con la Federación, funden Institutos Descentralizados de Capacitación Formal para el Trabajo; el Gobierno de Tamaulipas en acuerdo con el Subsecretario de Educación e Investigación Tecnológica, decidió la fundación de dos Institutos de Capacitación para el Trabajo en las ciudades de Altamira y Reynosa , con esta decisión Tamaulipas fue el pionero de la descentralización de la Educación Tecnológica, firmándose el convenio el 26 de junio de 1991.
+
+En este documento se estipula que a partir de septiembre de 1991, funcionará el Instituto Tamaulipeco de Capacitación para el Empleo, ITACE, con dos modalidades: Técnico Profesional y Capacitación para y en el Trabajo. En Enero de 1993, se firmó el Anexo de Ejecución para la creación del Plantel Matamoros. </p>
+                            <a class="enlace-ubicacion-plantel" href="https://maps.app.goo.gl/45Lz4we75iR8QsWT9" target="_blank" rel="noopener">Ver ubicación en Google Maps ↗</a>
+                        </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             CARRERAS
+        =========================================== -->
+        <section class="seccion carreras" id="carreras">
+    <div class="titulo-seccion">
+        <span>Prepárate para el futuro</span>
+        <h2>Nuestras carreras</h2>
+    </div>
+    <p class="introduccion">Conoce las áreas de formación técnica que ofrece el ITACE.</p>
+
+    <div class="carreras-lista">
+        <div class="carrera-encabezado">CARRERA</div>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Ciberseguridad</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La carrera técnica en Ciberseguridad está enfocada en formar profesionales capacitados para proteger los sistemas de información y las infraestructuras tecnológicas de organizaciones frente a ciberataques, amenazas y vulnerabilidades.
+
+Proporciona al estudiante la formación en competencias para enfrentar los desafíos del mundo digital para desarrollar algoritmos de programación para resguardar la seguridad de la información, instalar sistemas operativos para asegurar la información, administrar los sistemas informáticos de la seguridad de la información, operar sistemas de seguridad informática y monitorear el tráfico de redes para detectar vulnerabilidades. Estás competencias posibilitan al egresado su incorporación al mundo laboral, continuar su trayectoria educativa o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales o las necesidades de su entorno social, facilitando al egresado su incorporación al mundo laboral en sitios de inserción como servicios de diseño de sistemas de cómputo, infraestructura de servicios de cómputo, programación de datos, hospedaje de páginas de internet, consultoría de informática y gestión de instalaciones informáticas, instalación y reparación de redes, equipos y sistemas computacionales, para desempeñarse como técnico en la instalación y reparación de redes, equipos y sistemas computacionales, administradores de bases de datos y redes de computadora; o en el desarrollo de procesos productivos independientes, de acuerdo con sus intereses profesionales y necesidades de su entorno social.  Trabajará en equipos multidisciplinarios y colaborará con profesionales de diferentes áreas en la protección de la información y la mitigación de riesgos..</p>
+        </details>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Inteligencia Artificial</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La carrera de Técnico en Inteligencia Artificial está diseñada para capacitar a profesionales que comprendan y apliquen los principios de la IA en diversas áreas tecnológicas. Proporciona al estudiante la preparación para aplicar técnicas de representación del cono- cimiento y procesamiento de información en diversos contextos industriales y de servicios, basándose en estándares y procedimientos implementados por una empresa, lo que contribuye a la satisfacción y éxito del negocio..</p>
+        </details>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Semiconductores y Microelectrónica</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La carrera de Técnico en Semiconductores y Microelectrónica ofrece la capacitación de profesionales que comprendan y manejen la tecnología relacionada con la fabricación, diseño y programación de microprocesadores, circuitos integrados y componentes semiconductores.
+
+Derivado del desarrollo de la industria de fabricación de semiconductores a nivel mundial y a la aplicación de tecnologías, debido al incremento de empresas dentro de esta nueva era tecnológica, existe la necesidad de generar una cadena de suministro de chips más equilibrada y resistente que trascienda las fronteras geográficas y que promueva una colaboración mundial. Para alcanzar esta visión, es fundamental otorgarles protagonismo a países como México y en el resto de América Latina, donde además de proveer talento altamente cualificado y contar con una cultura de mucho valor, es un territorio que se está convirtiendo en la primera opción para las principales empresas del mundo que quieren generar nuevos caminos de éxito..</p>
+        </details>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Logística</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La carrera técnica en Logística está enfocada en capacitar a los profesionales para gestionar de manera eficiente el flujo de bienes, servicios, información y recursos dentro de una organización, así como en la cadena de suministro, transporte y distribución. Esta carrera tiene un enfoque práctico, orientado a optimizar procesos y garantizar que los productos lleguen de manera oportuna y segura a su destino.
+
+Desarrolla en el estudiante la preparación profesional para la gestión en la adquisición de mercancías y servicios, la organización del flujo de mercancías en almacén, la gestión del tráfico de mercancías de importación y exportación y la distribución física de mercancías, así como la cotización de los costos de la cadena de suministro. Estas competencias posibilitan al egresado su incorporación al mundo laboral, continuar su trayectoria educativa o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales o las necesidades en su entorno social; facilitando al egresado su incorporación al mundo laboral en sitios de inserción como auxiliar en el departamento de compras y adquisiciones, trabajadores en control de almacén y bodega, trabajadores en el control de la operación de transporte, despachador de transporte, trabajadores en servicio de alquiler de bienes muebles, entre otros, para desempeñarse como almacenista de bodega, auxiliar de almacén, empleado de inventario, operador de báscula de bodega, tramitadores en empresas navieras, asistir en los tramites de transporte de carga aéreo regular e irregular de líneas nacionales y extranjeras, transporte de carga por ferrocarril, transporte de carga por carretera y transporte de carga marítima, servicios relacionados con el transporte de carga, trabajadores en servicios de paquetería y mensajería,  ayudante de operador de maquinaria pesada o para el movimiento de mercancía, estibador, alijador y descargador o en el desarrollo de procesos productivos independientes, de acuerdo con sus intereses profesionales y necesidades de su entorno social.</p>
+        </details>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Mantenimiento Automotriz</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La carrera de Técnico en Mantenimiento Automotriz ofrece formar profesionales capacitados para diagnosticar, reparar y mantener vehículos de motor, tanto en términos de su mecánica como en los sistemas eléctricos, electrónicos y de transmisión.
+
+Asimismo, podrá desarrollar competencias genéricas relacionadas principalmente con la participación en los procesos de comunicación en distintos contextos, la integración efectiva a los equipos de trabajo y la intervención consciente, desde su comunidad en particular, en el país y el mundo en general, todo con apego al cuidado del medio ambiente. En base al sector productivo, se incorporar al programa de estudios algunas competencias de productividad y empleabilidad, las cuales comprueban que se están formando técnicos capaces de desarrollar sus habilidades, destrezas, conocimientos y actitudes para poder incorporarse de forma exitosa al sector productivo..</p>
+        </details>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Mantenimiento Industrial</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La carrera de Técnico en mantenimiento industrial ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a realizar mantenimiento a instalaciones eléctricas, fabricar pequeñas estructuras metálicas, realiza actividades de ajuste de banco utilizando herramientas básicas, interpretar planos de piezas mecánicas, utilizar máquinas herramientas convencionales y de control numérico para reparación y fabricación de piezas, manejar máquinas de soldar de arco eléctrico y oxicorte, manipular sistemas de control y automatización, sistemas de neumática e hidráulica, mantiene equipos de refrigeración y aire acondicionado e implementara los programas de administración del mantenimiento en los sistemas.</p>
+        </details>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Diseño Gráfico</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La carrera de Técnico en Diseño Gráfico Digital ofrece competencias profesionales que permiten al estudiante realizar actividades dirigidas a diseñar imágenes, producir elementos digitales y de animación. Durante su formación desarrollarán su capacidad creativa, inventiva y teórica través de la producción de elementos gráficos para medios impresos y multimedia. Así como el desarrollo de proyectos gráficos.
+
+Facilitando al egresado su incorporación al mundo laboral en diversos sitios de inserción como: asistente de diseñador, ilustrador, editor de imágenes digitales, preparador de archivos para medios de producción o en el desarrollo de procesos productivos independientes, de acuerdo con sus intereses profesionales y necesidades de su entorno social..</p>
+        </details>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Programación</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La generacion 2024-2027 es la ultima generacion de la carrera de programacion.</p>
+        </details>
+
+        <details class="carrera-fila">
+            <summary>
+                <span class="nombre-carrera">Electrónica</span>
+                <span class="ver-info">Ver información</span>
+            </summary>
+            <p>La carrera de Técnico en electricidad ofrece las competencias profesionales que permiten al estudiante sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar mantenimiento a máquinas eléctricas.
+
+Asimismo podrá desarrollar competencias genéricas relacionadas principalmente con la participación en los procesos de comunicación en distintos contextos, la integración efectiva a los equipos de trabajo y la intervención consciente, desde su comunidad en particular, en el país y el mundo en general, todo con apego al cuidado del medio ambiente..</p>
+        </details>
+    </div>
+</section>
+
+        <!-- ==========================================
+             CLUBES
+        =========================================== -->
+        <section class="seccion clubes" id="clubes">
+            <div class="titulo-seccion"><span>Talento y participación</span><h2>Clubes del ITACE</h2></div>
+            <div class="subtitulo-seccion"><span>Clubs detacados de Reynosa</span><h3>clubes destacados</h3></div>
+            <p class="introduccion">Actividades culturales y cívicas donde los estudiantes demuestran su talento.</p>
+            <article class="club"><div class="club-info"><span class="insignia"></span><h3> Danza</h3><p>Tradición, coordinación, talento y dedicación.</p></div><div class="club-fotos"><img src="danza.jpeg" alt="Danza ITACE"></div></article>
+            <article class="club"><div class="club-info"><span class="insignia"></span><h3> Banda de Guerra</h3><p>Disciplina, coordinación, compromiso y esfuerzo.</p></div><div class="club-fotos"><img src="banda.jpeg" alt="Banda de Guerra"></div></article>
+            <article class="club"><div class="club-info"><span class="insignia"></span><h3> Escolta</h3><p>Responsabilidad, respeto, disciplina y orgullo institucional.</p></div><div class="club-fotos"><img src="escolta.jpeg" alt="Escolta ITACE"></div></article>
+        </section>
+
+        <!-- ==========================================
+             LOGROS
+        =========================================== -->
+        <section class="seccion logros" id="logros">
+
+            <div class="titulo-seccion">
+                <span>Orgullo ITACE</span>
+                <h2>Logros y reconocimientos</h2>
+            </div>
+
+
+            <div class="grid-logros">
+
+                <article class="logro-card">
+                    <div class="trofeo">🏆</div>
+                    <strong>1.er lugar</strong>
+                    <h3>Banda de Guerra</h3>
+                    <p>
+                        Reconocimiento al esfuerzo, disciplina
+                        y coordinación de sus integrantes.
+                    </p>
+                </article>
+
+
+                <article class="logro-card">
+                    <div class="trofeo">🏆</div>
+                    <strong>1.er lugar</strong>
+                    <h3>Escolta</h3>
+                    <p>
+                        Un logro que representa el compromiso
+                        y orgullo de nuestra institución.
+                    </p>
+                </article>
+
+
+                <article class="logro-card">
+                    <div class="trofeo">🏆</div>
+                    <strong>1.er lugar</strong>
+                    <h3>Danza</h3>
+                    <p>
+                        El talento y dedicación de los estudiantes
+                        han permitido alcanzar este reconocimiento.
+                    </p>
+                </article>
+
+            </div>
+
+
+            <!-- TELETÓN -->
+            <div class="teleton">
+
+                <div class="teleton-imagen">
+
+                    <img src="cochinito.jpeg"
+                         alt="Profesor Benjamín Limón">
+
+                </div>
+
+
+                <div class="teleton-texto">
+
+                    <span class="insignia">🐷 Solidaridad ITACE</span>
+
+                    <h3>Profesor Benjamín Limón</h3>
+
+                    <h4>1.er lugar en recaudación del Cochinito Teletón</h4>
+
+                    <p>
+                        El profesor <strong>Benjamín Limón</strong>
+                        obtuvo un destacado primer lugar en la
+                        recaudación de dinero mediante el
+                        <strong>Cochinito Teletón</strong>.
+                    </p>
+
+                    <p>
+                        Este reconocimiento refleja la participación
+                        y solidaridad que también forman parte de
+                        nuestra comunidad escolar.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             INSTALACIONES
+        =========================================== -->
+        <section class="seccion instalaciones" id="instalaciones">
+
+            <div class="titulo-seccion">
+                <span>Conoce nuestros espacios</span>
+                <h2>Instalaciones del ITACE</h2>
+            </div>
+
+
+            <div class="grid-instalaciones">
+
+
+                <article class="instalacion-card">
+
+                    <img src="control.jpeg"
+                         alt="Control Escolar">
+
+                    <div>
+                        <h3>Control Escolar</h3>
+
+                        <p>
+                            Área encargada de brindar atención
+                            y realizar diferentes trámites escolares.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="instalacion-card">
+
+                    <img src="enfer.jpeg"
+                         alt="Enfermería">
+
+                    <div>
+                        <h3>Enfermería</h3>
+
+                        <p>
+                            Espacio destinado a brindar atención
+                            y primeros auxilios.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="instalacion-card">
+
+                    <img src="prefectura.jpeg"
+                         alt="Prefectura">
+
+                    <div>
+                        <h3>Prefectura</h3>
+
+                        <p>
+                            Área que apoya en la organización
+                            y convivencia dentro de la escuela.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="instalacion-card">
+
+                    <img src="audi.jpeg"
+                         alt="Auditorio">
+
+                    <div>
+                        <h3>Auditorio</h3>
+
+                        <p>
+                            Espacio utilizado para eventos,
+                            reuniones y presentaciones escolares.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="instalacion-card">
+
+                    <img src="Direccion.jpeg"
+                         alt="Direccion">
+
+                    <div>
+                        <h3>Direccion</h3>
+
+                        <p>
+                            "Area de control de todo el plantel  "
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="instalacion-card">
+
+                    <img src="control.jpeg"
+                         alt="vinculacion">
+
+                    <div>
+                        <h3>Vinculación</h3>
+
+                        <p>
+                            Área que fomenta la relación entre
+                            estudiantes, institución y organizaciones.
+                        </p>
+                    </div>
+
+                </article>
+
+
+
+                <article class="instalacion-card">
+
+                    <img src="salones.jpeg"
+                         alt="Salones">
+
+                    <div>
+                        <h3>Salones</h3>
+
+                        <p>
+                            Espacios donde los estudiantes realizan
+                            sus actividades académicas.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="instalacion-card">
+
+                    <img src="talleres.jpeg"
+                         alt="Talleres">
+
+                    <div>
+                        <h3>Talleres</h3>
+
+                        <p>
+                            Espacios destinados a desarrollar
+                            actividades prácticas y técnicas.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <article class="instalacion-card">
+
+                    <img src="deportiva.jpeg"
+                         alt="Áreas deportivas">
+
+                    <div>
+                        <h3>Áreas deportivas</h3>
+
+                        <p>
+                            Espacios para actividades físicas,
+                            deportivas y de convivencia.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+<!-- ==========================================
+             GALERÍA
+        =========================================== -->
+        <section class="seccion galeria" id="galeria">
+
+            <div class="titulo-seccion">
+                <span>Nuestra comunidad en imágenes</span>
+                <h2>VIDA ESTUDIANTIL</h2>
+            </div>
+
+            <p class="introduccion">
+                Algunos momentos, actividades
+                y experiencias que forman parte de nuestra escuela.
+            </p>
+
+
+            <div class="galeria-grid">
+
+                <img src="a.jpeg" alt="ITACE">
+                <img src="b.jpeg" alt="ITACE">
+                <img src="c.jpeg" alt="ITACE">
+                <img src="d.jpeg" alt="ITACE">
+
+                <img src="e.jpeg" alt="ITACE">
+                <img src="f.jpeg" alt="ITACE">
+                <img src="g.jpeg" alt="ITACE">
+                <img src="h.jpeg" alt="ITACE">
+
+                <img src="i.jpeg" alt="ITACE">
+                <img src="j.jpeg" alt="ITACE">
+                <img src="k.jpeg" alt="ITACE">
+                <img src="l.jpeg" alt="ITACE">
+
+                <img src="m.jpeg" alt="ITACE">
+                <img src="n.jpeg" alt="ITACE">
+                <img src="o.jpeg" alt="ITACE">
+                <img src="q.jpeg" alt="ITACE">
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             PROYECTOS INSTITUCIONALES / ESTUDIANTILES
+        =========================================== -->
+        <section class="seccion" id="proyectos">
+            <div class="titulo-seccion"><span>Trabajo y desarrollo</span><h2>Proyectos institucionales</h2></div>
+            <p class="introduccion">Iniciativas documentadas del ITACE Plantel Reynosa para fortalecer la formación técnica y el bienestar de su comunidad.</p>
+            <div class="grid-contenido">
+                <article class="contenido-card foto-ya-agregada foto-ya-agregada foto-ya-agregada">
+                                <img class="foto-tarjeta" src="dual.jpg" alt="Proyecto estudiantil del ITACE">
+                
+                    <span class="tag">Formación profesional</span>
+                    <h3>Programa de Educación Dual</h3>
+                    <p>Estudiantes de Mantenimiento Automotriz se incorporaron a prácticas en una agencia automotriz para aplicar sus conocimientos y adquirir experiencia en un entorno laboral real.</p>
+                    <a href="https://www.facebook.com/search/top?q=ITACE+Plantel+Reynosa+Educaci%C3%B3n+Dual&utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">Consultar fuente</a>
+                </article>
+                <article class="contenido-card">
+                    <img class="foto-tarjeta" src="certificacion.jpg" alt="Proyecto estudiantil del ITACE">
+                    <span class="tag">Certificación</span>
+                    <h3>Reconocimiento de competencias ocupacionales</h3>
+                    <p>El plantel aplicó una evaluación ROCO en áreas de masajes terapéuticos, quiroprácticos, masaje y cuidado físico para reconocer conocimientos y habilidades prácticas.</p>
+                    <a href="https://www.facebook.com/share/p/18jekwv3YJ/" target="_blank" rel="noopener noreferrer">Consultar fuente</a>
+                </article>
+                <article class="contenido-card">
+                    <img class="foto-tarjeta" src="abc.jpg" alt="Proyecto estudiantil del ITACE">
+                    <span class="tag">Bienestar estudiantil</span>
+                    <h3>ABC de las Emociones</h3>
+                    <p>Acciones para promover el reconocimiento y la expresión de las emociones, el autocuidado y una convivencia escolar saludable entre las y los jóvenes.</p>
+                    <a href="https://www.facebook.com/search/top?q=ITACE+Plantel+Reynosa+ABC+de+las+Emociones&utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">Consultar fuente</a>
+                </article>
+            </div>
+        </section>
+
+        
+
+        <!-- EVENTOS Y CONFERENCIAS -->
+        <section class="seccion" id="eventos">
+            <div class="titulo-seccion"><span>Agenda ITACE</span><h2>Eventos y conferencias</h2></div>
+            <p class="introduccion">Actividades académicas, deportivas y de formación realizadas en el ITACE Plantel Reynosa.</p>
+            <div class="grid-contenido">
+                <article class="contenido-card">
+                    <img class="foto-tarjeta" src="catrina.jpg" alt="Concurso de catrinas del ITACE Reynosa">
+                    <span class="tag">Concurso de catrinas · 30 de octubre</span>
+                    <h3>Día de Muertos</h3>
+                    <p>Estudiantes del plantel participaron en las actividades conmemorativas del Día de Muertos.</p>
+                    <a href="https://www.facebook.com/itaceplantelreynosa/" target="_blank" rel="noopener noreferrer">Ver detalles</a>
+                </article>
+                <article class="contenido-card">
+                    <img class="foto-tarjeta" src="carrera.jpg" alt="Caminata y carrera del ITACE Reynosa">
+                    <span class="tag">Evento deportivo · septiembre de 2026</span>
+                    <h3>Caminata 2K y Carrera 5K</h3>
+                    <p>Actividad deportiva y de convivencia organizada en el marco del aniversario del ITACE, con recorrido en Reynosa.</p>
+                    <a href="https://www.facebook.com/share/p/1BcbrVpBwm/" target="_blank" rel="noopener noreferrer">Ver detalles</a>
+                </article>
+                <article class="contenido-card">
+                    <img class="foto-tarjeta" src="lectura.jpg" alt="Maratón de lectura del ITACE">
+                    <span class="tag">Actividad académica · mayo de 2026</span>
+                    <h3>Maratón de Lectura</h3>
+                    <p>Estudiantes compartieron lecturas en voz alta y recomendaciones para fomentar el hábito de la lectura.</p>
+                    <a href="https://www.facebook.com/share/p/1BkaZsAPWz/" target="_blank" rel="noopener noreferrer">Ver detalles</a>
+                </article>
+                <article class="contenido-card">
+                    <img class="foto-tarjeta" src="act.jpg" alt="Feria Infantil de Ciencia, Tecnología y Arte">
+                    <span class="tag">Talento y creatividad · octubre de 2026</span>
+                    <h3>Feria Infantil</h3>
+                    <p>Participación del ITACE en la 11.ª Feria Infantil de Ciencia, Tecnología y Arte 2026.</p>
+                    <a href="https://www.facebook.com/share/p/1FZTvREZju/" target="_blank" rel="noopener noreferrer">Ver detalles</a>
+                </article>
+                <article class="contenido-card">
+                    <img class="foto-tarjeta" src="salud.jpg" alt="Plática sobre salud mental">
+                    <span class="tag">Plática formativa · octubre de 2026</span>
+                    <h3>Plática sobre salud mental</h3>
+                    <p>Estudiantes participaron en una plática sobre autocuidado, identificación de emociones y bienestar.</p>
+                    <a href="https://www.facebook.com/itaceplantelreynosa/" target="_blank" rel="noopener noreferrer">Ver detalles</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ADMISIONES -->
+        <section class="seccion" id="admisiones">
+            <div class="titulo-seccion"><span>Para aspirantes</span><h2>Admisiones y Preinscripción 2026</h2></div>
+            
+
+            <p class="introduccion">Consulta los requisitos de preinscripción para ingresar al ITACE. Horario de atención: 9:00 a 14:00 hrs.</p>
+            <div class="admisiones-box">
+                <div>
+                    <h3>Requisitos de preinscripción</h3>
+                    <ul>
+                        <li>Copia del acta de nacimiento.</li>
+                        <li>Constancia de estudios de secundaria con último promedio o copia del certificado.</li>
+                        <li>Copia de CURP actualizada.</li>
+                        <li>2 fotografías de frente, blanco y negro, tamaño infantil.</li>
+                        <li>Comprobante de domicilio.</li>
+                        <li>Comprobante de derecho.</li>
+                    </ul>
+                    <p><strong>ITACE Reynosa:</strong> (899) 924-01-84, (899) 925-24-03 y (899) 925-23-86.</p>
+                    <p><strong>Correo:</strong> <a href="mailto:plantel.reynosa@itace.edu.mx">plantel.reynosa@itace.edu.mx</a></p>
+                    <a class="boton" href="https://www.facebook.com/itaceplantelreynosa/" target="_blank" rel="noopener noreferrer">Consultar admisiones en Facebook</a>
+                </div>
+                <div>
+                    <img src="requisitos.jpg" alt="Requisitos de Preinscripción 2026 del ITACE" style="width:100%;max-width:560px;border-radius:18px;display:block;margin:auto;">
+                </div>
+            </div>
+        </section>
+
+        <!-- DIRECTORIO DOCENTE -->
+        <section class="seccion" id="docentes">
+            <div class="titulo-seccion"><span>Comunidad académica</span><h2>Directorio docente</h2></div>
+            <p class="introduccion">Busca por nombre o materia y filtra por academia o área.</p>
+            <div class="filtros-docentes">
+                <label>Buscar por nombre o materia<input id="buscarDocente" type="search" placeholder="Ej. Programación o nombre del docente"></label>
+                <label>Academia o área<select id="filtroAcademia"><option value="todas">Todas las áreas</option><option value="matematicas">Matemáticas</option><option value="comunicacion">Comunicación</option><option value="humanidades">Humanidades</option><option value="ciencias">Ciencias</option><option value="informatica">Informática</option><option value="programacion">Programación</option><option value="electronica">Electrónica</option><option value="mantenimiento">Mantenimiento</option><option value="educacion">Educación</option><option value="ingles">Inglés</option><option value="diseno">Diseño Gráfico</option></select></label>
+                <button type="button" class="boton" id="limpiarDocentes">Limpiar búsqueda</button>
+            </div>
+            <div id="listaDocentes" class="grid-docentes">
+                <article class="docente-card" data-nombre="Bertha Alicia Zapata Aldape" data-materia="No especificado" data-area="matematicas">
+                    <img class="foto-docente" src="mujer.jpeg" alt="Fotografía de Bertha Alicia Zapata Aldape">
+                    <h3>Bertha Alicia Zapata Aldape</h3>
+                    <p><strong>Área:</strong> Matemáticas</p>
+                    <p><strong>Materias:</strong> Matemáticas</p>
+                    <p><strong>Semestres:</strong> 1.º y 3.º</p>
+                    <p><strong>Formación:</strong> Doctorado</p>
+                    <p><strong>Años en ITACE:</strong> 2 años y medio</p>
+                    <p><strong>Salón:</strong> C-6</p>
+                </article>
+                <article class="docente-card" data-nombre="Carlos Melecio Carmona Olivares" data-materia="No especificado" data-area="diseno">
+                    <img class="foto-docente" src="hombre.jpeg" alt="Fotografía de Carlos Melecio Carmona Olivares">
+                    <h3>Carlos Melecio Carmona Olivares</h3>
+                    <p><strong>Área:</strong> Diseño Gráfico e Inglés</p>
+                    <p><strong>Materias:</strong>Diseño Gráfico e Inglés </p>
+                    <p><strong>Semestres:</strong> 1.º y 3.º</p>
+                    <p><strong>Formación:</strong> Maestría en Educación Básica, UPN y Licenciatura en Diseño Gráfico UVB</p>
+                    <p><strong>Años en ITACE:</strong> 2 años</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Erik Ramírez Solís" data-materia="Pensamiento Matemático" data-area="matematicas">
+                    <img class="foto-docente" src="erik.jpeg" alt="Fotografía de Erik Ramírez Solís">
+                    <h3>Erik Ramírez Solís</h3>
+                    <p><strong>Área:</strong> Pensamiento Matemático</p>
+                    <p><strong>Materias:</strong> Pensamiento Matemático</p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Licenciatura en Electromecánica y Maestría en Educación</p>
+                    <p><strong>Años en ITACE:</strong> 21 años</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Grecia Ávalos Ramos" data-materia="No especificado" data-area="comunicacion">
+                    <img class="foto-docente" src="mujer.jpeg" alt="Fotografía de Grecia Ávalos Ramos">
+                    <h3>Grecia Ávalos Ramos</h3>
+                    <p><strong>Área:</strong> Lengua y Comunicación</p>
+                    <p><strong>Materias:</strong> Lengua y Comunicación</p>
+                    <p><strong>Semestres:</strong> 1.º y 3.º</p>
+                    <p><strong>Formación:</strong> Licenciatura y Maestría</p>
+                    <p><strong>Años en ITACE:</strong> 3 años</p>
+                    <p><strong>Salón:</strong> B1</p>
+                </article>
+                <article class="docente-card" data-nombre="Sandra Catalina Silva Camacho" data-materia="No especificado" data-area="comunicacion">
+                    <img class="foto-docente" src="mujer.jpeg" alt="Fotografía de Sandra Catalina Silva Camacho">
+                    <h3>Sandra Catalina Silva Camacho</h3>
+                    <p><strong>Área:</strong> Comunicación</p>
+                    <p><strong>Materias:</strong> Comunicación</p>
+                    <p><strong>Semestres:</strong> 5.º actualmente</p>
+                    <p><strong>Formación:</strong> Maestría en Metodología de la Enseñanza</p>
+                    <p><strong>Años en ITACE:</strong> 25 años</p>
+                    <p><strong>Salón:</strong> B4</p>
+                </article>
+                <article class="docente-card" data-nombre="Liliana Rosas Pacheco" data-materia="Conciencia Histórica, Formación Socioemocional, Lengua y Comunicación y Pensamiento Filosófico" data-area="humanidades">
+                    <img class="foto-docente" src="liliana.jpeg" alt="Fotografía de Liliana Rosas Pacheco">
+                    <h3>Liliana Rosas Pacheco</h3>
+                    <p><strong>Área:</strong> Humanidades</p>
+                    <p><strong>Materias:</strong> Conciencia Histórica, Formación Socioemocional, Lengua y Comunicación y Pensamiento Filosófico</p>
+                    <p><strong>Semestres:</strong> 1.º y 5.º</p>
+                    <p><strong>Formación:</strong> Licenciatura en Pedagogía, Maestría en Educación/Docencia y Doctorado en Educación</p>
+                    <p><strong>Años en ITACE:</strong> 5 años</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Carla Valeria Morán Lerma" data-materia="Pensamiento Filosófico, Ciencias Sociales y Cultura Digital" data-area="humanidades">
+                    <img class="foto-docente" src="mujer.jpeg" alt="Fotografía de Carla Valeria Morán Lerma">
+                    <h3>Carla Valeria Morán Lerma</h3>
+                    <p><strong>Área:</strong> Pensamiento Filosófico, Ciencias Sociales y Cultura Digital</p>
+                    <p><strong>Materias:</strong> Pensamiento Filosófico, Ciencias Sociales y Cultura Digital</p>
+                    <p><strong>Semestres:</strong> 1.º y 3.º</p>
+                    <p><strong>Formación:</strong> Maestría</p>
+                    <p><strong>Años en ITACE:</strong> 33 años</p>
+                    <p><strong>Salón:</strong> B3</p>
+                </article>
+                <article class="docente-card" data-nombre="Benjamín Limón Martínez" data-materia="Cultura Digital, Inteligencia Artificial y Programación" data-area="programacion">
+                    <img class="foto-docente" src="hombre.jpeg" alt="Fotografía de Benjamín Limón Martínez">
+                    <h3>Benjamín Limón Martínez</h3>
+                    <p><strong>Área:</strong> Informática y Programación</p>
+                    <p><strong>Materias:</strong> Cultura Digital, Inteligencia Artificial y Programación</p>
+                    <p><strong>Semestres:</strong> 1.º Cultura Digital, 3.º Inteligencia Artificial y 5.º Programación</p>
+                    <p><strong>Formación:</strong> Informática en Sistemas, Administración en Productividad y Calidad y Maestría en Educación</p>
+                    <p><strong>Años en ITACE:</strong> 5 años</p>
+                    <p><strong>Salón:</strong> Laboratorio 5</p>
+                </article>
+                <article class="docente-card" data-nombre="Isidro de León Flores" data-materia="Educación Física Premilitar" data-area="educacion">
+                    <img class="foto-docente" src="isidro.jpeg" alt="Fotografía de Isidro de León Flores">
+                    <h3>Isidro de León Flores</h3>
+                    <p><strong>Área:</strong> Educación Física Premilitar</p>
+                    <p><strong>Materias:</strong> Educación Física Premilitar</p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Licenciatura en Psicopedagogía y Pedagogía</p>
+                    <p><strong>Años en ITACE:</strong> 29 años</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Norma Elena Torres Quiñones" data-materia="No especificado" data-area="ciencias">
+                    <img class="foto-docente" src="mujer.jpeg" alt="Fotografía de Norma Elena Torres Quiñones">
+                    <h3>Norma Elena Torres Quiñones</h3>
+                    <p><strong>Área:</strong> Ciencias Naturales e IT</p>
+                    <p><strong>Materias:</strong>Ciencias Naturales  </p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Ingeniería Química y Maestría en Docencia</p>
+                    <p><strong>Años en ITACE:</strong> 26 años</p>
+                    <p><strong>Salón:</strong> C4</p>
+                </article>
+                <article class="docente-card" data-nombre="Brenda Itzel Herrera García" data-materia="Cultura Digital e Inteligencia Artificial" data-area="informatica">
+                    <img class="foto-docente" src="brenda.jpeg" alt="Fotografía de Brenda Itzel Herrera García">
+                    <h3>Brenda Itzel Herrera García</h3>
+                    <p><strong>Área:</strong> Informática</p>
+                    <p><strong>Materias:</strong> Cultura Digital e Inteligencia Artificial</p>
+                    <p><strong>Semestres:</strong> 1.º y 3.º</p>
+                    <p><strong>Formación:</strong> Técnica en Informática, Ingeniería en Sistemas Computacionales y Maestría en Educación</p>
+                    <p><strong>Años en ITACE:</strong> 4 años</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Walter Allan Barrera Cerda" data-materia="Inglés 3; Club Rondalla" data-area="ingles">
+                    <img class="foto-docente" src="walter.jpeg" alt="Fotografía de Walter Allan Barrera Cerda">
+                    <h3>Walter Allan Barrera Cerda</h3>
+                    <p><strong>Área:</strong> Comunicación</p>
+                    <p><strong>Materias:</strong> Inglés 3; Club Rondalla</p>
+                    <p><strong>Semestres:</strong> Inglés 3.º; Club 1.º, 2.º y 3.º</p>
+                    <p><strong>Formación:</strong> Ingeniería Industrial y Administración</p>
+                    <p><strong>Años en ITACE:</strong> 13 años</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Gerardo de la Rosa Ortega" data-materia="Inglés" data-area="ingles">
+                    <img class="foto-docente" src="gerardo.jpeg" alt="Fotografía de Gerardo de la Rosa Ortega">
+                    <h3>Gerardo de la Rosa Ortega</h3>
+                    <p><strong>Área:</strong> Inglés</p>
+                    <p><strong>Materias:</strong> Inglés</p>
+                    <p><strong>Semestres:</strong> 5.º</p>
+                    <p><strong>Formación:</strong> Licenciatura en Contaduría</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Erika Aidé Pérez Abrego" data-materia="Ciencias Naturales y Humanidades" data-area="ciencias">
+                    <img class="foto-docente" src="erika.jpeg" alt="Fotografía de Erika Aidé Pérez Abrego">
+                    <h3>Erika Aidé Pérez Abrego</h3>
+                    <p><strong>Área:</strong> Ciencias Naturales y Humanidades</p>
+                    <p><strong>Materias:</strong> Ciencias Naturales y Humanidades</p>
+                    <p><strong>Semestres:</strong> 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Ingeniería Industrial en Sistemas y Maestría en Educación</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Samuel Gonzales de la Fuente" data-materia="Pensamiento Filosófico 1 y 3, Ciencias Sociales 1 y Estudios Literarios" data-area="humanidades">
+                    <img class="foto-docente" src="hombre.jpeg" alt="Fotografía de Samuel Gonzales de la Fuente">
+                    <h3>Samuel Gonzales de la Fuente</h3>
+                    <p><strong>Área:</strong> Humanidades y Ciencias Sociales</p>
+                    <p><strong>Materias:</strong> Pensamiento Filosófico 1 y 3, Ciencias Sociales 1 y Estudios Literarios</p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Licenciatura en Administración de Empresas y carrera técnica en Ebanistería</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Laura Esmeralda Heredia Blanco" data-materia="Ciencias 1, 3 y 5" data-area="ciencias">
+                    <img class="foto-docente" src="laura.jpeg" alt="Fotografía de Laura Esmeralda Heredia Blanco">
+                    <h3>Laura Esmeralda Heredia Blanco</h3>
+                    <p><strong>Área:</strong> Ciencias</p>
+                    <p><strong>Materias:</strong> Ciencias 1, 3 y 5</p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Bióloga, especializada en Física y Química</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Felipe Hernández González" data-materia="Módulo de Electrónica y Semiconductores; Lengua y Comunicación 1 y 3; Conciencia Histórica 2" data-area="electronica">
+                    <img class="foto-docente" src="felipe.jpeg" alt="Fotografía de Felipe Hernández González">
+                    <h3>Felipe Hernández González</h3>
+                    <p><strong>Área:</strong> Electrónica y Semiconductores</p>
+                    <p><strong>Materias:</strong> Módulo de Electrónica y Semiconductores; Lengua y Comunicación 1 y 3; Conciencia Histórica 2</p>
+                    <p><strong>Semestres:</strong> 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Ingeniería en Electrónica</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Luis Enrique Lerma Martínez" data-materia="Mantenimiento Petrolero y Mantenimiento Industrial" data-area="mantenimiento">
+                    <img class="foto-docente" src="lerma.jpeg" alt="Fotografía de Luis Enrique Lerma Martínez">
+                    <h3>Luis Enrique Lerma Martínez</h3>
+                    <p><strong>Área:</strong> Mantenimiento</p>
+                    <p><strong>Materias:</strong> Mantenimiento Petrolero y Mantenimiento Industrial</p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Ingeniería Petrolera, Licenciatura en Docencia y Diplomado en Competencias Docentes</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Yuridia Lizbeth Cepeda Ramos" data-materia="Inglés y Temas Selectos de Matemáticas 2" data-area="matematicas">
+                    <img class="foto-docente" src="mujer.jpeg" alt="Fotografía de Yuridia Lizbeth Cepeda Ramos">
+                    <h3>Yuridia Lizbeth Cepeda Ramos</h3>
+                    <p><strong>Área:</strong> Matemáticas e Inglés</p>
+                    <p><strong>Materias:</strong> Inglés y Temas Selectos de Matemáticas 2</p>
+                    <p><strong>Semestres:</strong> No especificado</p>
+                    <p><strong>Formación:</strong> Ingeniería Industrial, Licenciatura en Matemáticas, Maestría en Educación e Innovación Educativa y estudios de Doctorado en Educación</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Juan Pablo Torres Adame" data-materia="Programación y Cultura Digital; Club Robótica; Cursos de Excel los sábados" data-area="programacion">
+                    <img class="foto-docente" src="juanpablo.jpeg" alt="Fotografía de Juan Pablo Torres Adame">
+                    <h3>Juan Pablo Torres Adame</h3>
+                    <p><strong>Área:</strong> Programación</p>
+                    <p><strong>Materias:</strong> Programación y Cultura Digital; Club Robótica; Cursos de Excel los sábados</p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Licenciatura en Información Administrativa y Maestría en Ciencias de la Enseñanza</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Romualdo Guadalupe de la Cruz" data-materia="Pensamiento Matemático 1 y 3" data-area="matematicas">
+                    <img class="foto-docente" src="hombre.jpeg" alt="Fotografía de Romualdo Guadalupe de la Cruz">
+                    <h3>Romualdo Guadalupe de la Cruz</h3>
+                    <p><strong>Área:</strong> Pensamiento Matemático</p>
+                    <p><strong>Materias:</strong> Pensamiento Matemático 1 y 3</p>
+                    <p><strong>Semestres:</strong> 1.º y 3.º</p>
+                    <p><strong>Formación:</strong> Mantenimiento Industrial y Mantenimiento en Instalaciones Petroleras</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Nohemí Quintanilla Arcos" data-materia="No especificado" data-area="educacion">
+                    <img class="foto-docente" src="mujer.jpeg" alt="Fotografía de Nohemí Quintanilla Arcos">
+                    <h3>Nohemí Quintanilla Arcos</h3>
+                    <p><strong>Área:</strong> prefectura</p>
+                    <p><strong>Materias:</strong> disciplina</p>
+                    <p><strong>Semestres:</strong>1ro</p>
+                    <p><strong>Formación:</strong> Prefecta (dato proporcionado; conviene verificar)</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Ulises Solís Rieboles" data-materia="Ciencias Naturales 1, 3 y 5" data-area="ciencias">
+                    <img class="foto-docente" src="ulises.jpeg" alt="Fotografía de Ulises Solís Rieboles">
+                    <h3>Ulises Solís Rieboles</h3>
+                    <p><strong>Área:</strong> Ciencias Naturales</p>
+                    <p><strong>Materias:</strong> Ciencias Naturales 1, 3 y 5</p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Químico Farmacéutico Biólogo, Maestría en Análisis Clínicos, Maestría en Educación y estudios de Doctorado en Educación</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Trinidad Hernades Barrera" data-materia="Ciencias Naturales, Experimentales y Tecnología 1, 3 y 5" data-area="ciencias">
+                    <img class="foto-docente" src="hombre.jpeg" alt="Fotografía de Trinidad Hernades Barrera">
+                    <h3>Trinidad Hernades Barrera</h3>
+                    <p><strong>Área:</strong> Ciencias</p>
+                    <p><strong>Materias:</strong> Ciencias Naturales, Experimentales y Tecnología 1, 3 y 5</p>
+                    <p><strong>Semestres:</strong> 1.º, 3.º y 5.º</p>
+                    <p><strong>Formación:</strong> Biólogo</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+                <article class="docente-card" data-nombre="Mildred Yasmín Reyes Norberto" data-materia="Temas Selectos de Matemáticas 2" data-area="matematicas">
+                    <img class="foto-docente" src="mujer.jpeg" alt="Fotografía de Mildred Yasmín Reyes Norberto">
+                    <h3>Mildred Yasmín Reyes Norberto</h3>
+                    <p><strong>Área:</strong> Matemáticas</p>
+                    <p><strong>Materias:</strong> Temas Selectos de Matemáticas 2</p>
+                    <p><strong>Semestres:</strong> 5.º</p>
+                    <p><strong>Formación:</strong> Ingeniería Química y Maestría en Docencia</p>
+                    <p><strong>Años en ITACE:</strong> No especificado</p>
+                    <p><strong>Salón:</strong> No especificado</p>
+                </article>
+            </div>
+            <p id="sinResultados" class="sin-resultados" hidden>No se encontraron docentes que coincidan con la búsqueda.</p>
+        </section>
+
+        <!-- PREGUNTAS FRECUENTES -->
+        <section class="seccion" id="preguntas">
+            <div class="titulo-seccion"><span>Resuelve tus dudas</span><h2>Preguntas frecuentes</h2></div>
+<div class="fotos-apartado fotos-compactas">
+                
+            </div>
+
+            <div class="faq">
+                <details><summary>¿Qué carreras ofrece el ITACE?</summary><p>El ITACE ofrece Ciberseguridad, Inteligencia Artificial, Semiconductores y Microelectrónica, Logística, Mantenimiento Automotriz, Diseño Gráfico, Programación, Electrónica y Mantenimiento Industrial.</p></details>
+                <details><summary>¿Dónde puedo consultar los requisitos de admisión?</summary><p>Puedes consultar los requisitos, fechas de preinscripción y avisos de admisión en la sección “Admisiones” de esta página y en la página de Facebook de ITACE Plantel Reynosa. <a href="https://www.facebook.com/itaceplantelreynosa/" target="_blank" rel="noopener noreferrer">Ir al Facebook de ITACE Plantel Reynosa</a>.</p></details>
+                <details><summary>¿Dónde puedo conocer las instalaciones?</summary><p>Consulta la sección “Instalaciones” y la galería multimedia del sitio.</p></details>
+                <details><summary>¿Este es el sitio oficial del ITACE?</summary><p>No. Este sitio es una propuesta académica elaborada con fines escolares.</p></details>
+            </div>
+        </section>
+
+        <!-- CONTACTO Y UBICACIÓN -->
+        <section class="seccion" id="contacto">
+            <div class="titulo-seccion"><span>Contacto y ubicación</span><h2>ITACE Reynosa</h2></div>
+
+
+            <div class="contacto-grid">
+                <article class="contacto-card">
+                    <h3>📍 Ubicación</h3>
+                    <p>Reynosa, Tamaulipas, México, C.P. 88745</p>
+                </article>
+
+                <article class="contacto-card">
+                    <h3>☎️ Contacto</h3>
+                    <p><strong>Teléfono:</strong> <a href="tel:+528999252403">899 925 2403</a></p>
+                    <p><strong>Correo:</strong> <a href="mailto:plantel.reynosa@itace.edu.mx">plantel.reynosa@itace.edu.mx</a></p>
+                </article>
+
+                <article class="contacto-card">
+                    <h3>🗺️ Mapa</h3>
+                    <p>Consulta la ubicación del plantel en el mapa.</p>
+                    <a class="boton" href="https://www.bing.com/maps/default.aspx?v=2&amp;pc=FACEBK&amp;mid=8100&amp;where1=Reynosa%2C%20Mexico%2C%2088745&amp;FORM=FBKPL1&amp;mkt=es-MX" target="_blank" rel="noopener noreferrer">Ver ubicación</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             DIRECCIÓN
+        =========================================== -->
+        <section class="seccion direccion" id="direccion">
+
+            <div class="direccion-contenido">
+
+                <div>
+                    <span class="etiqueta">📍 Nuestra escuela</span>
+
+                    <h2>Conoce el ITACE</h2>
+
+                    <p>
+                        El ITACE forma parte de la educación y capacitación
+                        de jóvenes tamaulipecos, ofreciendo espacios
+                        académicos, técnicos, culturales y de convivencia.
+                    </p>
+
+                    <a href="#inicio" class="boton">
+                        Volver al inicio
+                    </a>
+                </div>
+
+
+                <div class="direccion-imagen">
+
+                    <img src="instala.jpeg"
+                         alt="Instalaciones ITACE">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             VIDEOS DE HIMNOS
+        =========================================== -->
+        <section class="seccion multimedia" id="himnos-video">
+            <div class="titulo-seccion">
+                <span>Identidad y orgullo</span>
+                <h2>Videos de Himnos</h2>
+            </div>
+            <p class="introduccion">Disfruta los videos del Himno del ITACE y del Himno a Tamaulipas.</p>
+
+            <div class="grid-multimedia">
+                <article class="media-card">
+                    <h3>Himno del ITACE</h3>
+                    <video class="media-reproductor" controls preload="metadata">
+                        <source src="itace.mp4" type="video/mp4">
+                        Tu navegador no soporta videos.
+                    </video>
+                </article>
+
+                <article class="media-card">
+                    <h3>Himno a Tamaulipas</h3>
+                    <video class="media-reproductor" controls preload="metadata">
+                        <source src="Tamaulipas.mp4" type="video/mp4">
+                        Tu navegador no soporta videos.
+                    </video>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             AUDIOS DE HIMNOS
+        =========================================== -->
+        <section class="seccion multimedia" id="himnos-audio">
+            <div class="titulo-seccion">
+                <span>Escucha nuestros himnos</span>
+                <h2>Audios de Himnos</h2>
+            </div>
+           
+            <div class="grid-audios">
+                <article class="audio-card">
+                    <div class="audio-icono">♪</div>
+                    <h3>Himno del ITACE</h3>
+                    <p>Interpretación estudiantil integrada como parte de la identidad y orgullo ITACE.</p>
+                    <audio class="media-reproductor" controls preload="metadata">
+                        <source src="Himno_ITACE.mp3" type="audio/mpeg">
+                        Tu navegador no soporta audio.
+                    </audio>
+                    <small>Crédito: interpretación estudiantil. Verificar nombres de participantes antes de publicar.</small>
+                </article>
+
+                <article class="audio-card">
+                    <div class="audio-icono">♪</div>
+                    <h3>Himno a Tamaulipas</h3>
+                    <p>Interpretación estudiantil del himno representativo del estado de Tamaulipas.</p>
+                    <audio class="media-reproductor" controls preload="metadata">
+                        <source src="Himno_Tamaulipas.mp3" type="audio/mpeg">
+                        Tu navegador no soporta audio.
+                    </audio>
+                    <small>Crédito: interpretación estudiantil. Verificar nombres de participantes antes de publicar.</small>
+                </article>
+            </div>
+        </section>
+
+        <!-- CRÉDITOS  -->
+        <section class="seccion" id="creditos-fuentes">
+            <div class="titulo-seccion"><span>Proyecto académico</span><h2>Créditos y fuentes</h2></div>
+            <div class="grid-contenido">
+                <article class="contenido-card"><h3>Autoría</h3><p><strong>Autor(a):</strong> Maria Jose Quiroz</p><p><strong>Grupo:</strong> 502 B</p></article>
+                
+            </div>
+            <p class="aviso-verificacion"><strong>Aviso:</strong> este sitio es una propuesta académica no oficial del ITACE.</p>
+        </section>
+
+        <!-- ==========================================
+             FINAL
+        =========================================== -->
+        <section class="final">
+
+            <img src="ita.webp"
+                 alt="Logo ITACE"
+                 class="logo-final">
+
+            <h2>Orgullosamente ITACE</h2>
+            <p class="lema-final">Lealtad, Honor y Trabajo</p>
+
+            <p>
+                Educación, capacitación, talento, disciplina
+                y una comunidad que continúa construyendo su futuro.
+            </p>
+
+            <button onclick="mostrarMensaje()" class="boton">
+                Mensaje ITACE
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         VIDEO FINAL DE LA COMUNIDAD ITACE
+    =========================================== -->
+    <section class="seccion video-final" id="video-final">
+        <div class="titulo-seccion">
+            <span>Conoce nuestra comunidad</span>
+            <h2>ITACE en video</h2>
+        </div>
+        <p class="introduccion">
+            Un espacio para compartir actividades, instalaciones y momentos
+            que representan el orgullo de pertenecer al ITACE.
+        </p>
+        <div class="video-final-contenedor">
+            <video controls preload="metadata" playsinline poster="instala.jpeg">
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no puede reproducir este video. Comprueba que el archivo video-itace.mp4 esté en la misma carpeta que esta página.
+            </video>
+            <p class="video-ayuda">Video institucional de la comunidad ITACE</p>
+        </div>
+    </section>
+
+    <!-- REDES SOCIALES: PARTE INFERIOR -->
+
+<div class="barra-redes" aria-label="Redes sociales del ITACE">
+    <span class="redes-titulo">Síguenos en Redes Sociales:</span>
+    <div class="redes-enlaces">
+        <a href="https://www.facebook.com/photo/?fbid=1100107391912832&set=a.601424555114454" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">f</a>
+        <a href="https://twitter.com/itacetam?s=21&t=T0-BaMD5f0TwxuCt0O5U9Q" target="_blank" rel="noopener" aria-label="X" title="X">𝕏</a>
+        <a href="https://www.youtube.com/@SistemaITACE" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">▶</a>
+        <a href="https://instagram.com/itace.tam?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">◎</a>
+    </div>
+</div>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+    <footer>
+
+        <img src="ita.webp" alt="Logo ITACE">
+
+        <h3>ITACE</h3>
+
+        <p>
+            Instituto Tamaulipeco de Capacitación para el Empleo
+        </p>
+
+        <p class="creditos">
+            Proyecto escolar ITACE DIGITAL 4.0 · Desarrollo Web
+        </p>
+        <p>
+            Autor(a): Maria J· Grupo: B· Fuentes y créditos: completar antes de la entrega.
+        </p>
+
+    </footer>
+
+
+    <!-- ==========================================
+         MODAL
+    =========================================== -->
+    <div class="modal" id="modal">
+
+        <div class="modal-contenido">
+
+            <button class="cerrar"
+                    onclick="cerrarMensaje()">
+                ×
+            </button>
+
+            <img src="ita.webp"
+                 alt="ITACE">
+
+            <h2>¡Orgullo ITACE!</h2>
+
+            <p>
+                Nuestra escuela está formada por estudiantes,
+                docentes, actividades, conocimientos y experiencias
+                que construyen una gran comunidad.
+            </p>
+
+            <button class="boton"
+                    onclick="cerrarMensaje()">
+                Cerrar
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- BOTÓN ARRIBA -->
+    <button id="arriba"
+            onclick="irArriba()"
+            title="Volver arriba">
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        // Cuando se reproduce un video o un audio de himnos,
+        // se pausa la música de fondo y cualquier otro reproductor.
+        document.addEventListener("DOMContentLoaded", function () {
+            const fondo = document.getElementById("audioTema");
+            const reproductores = document.querySelectorAll(".media-reproductor");
+            const botonMusica = document.getElementById("audioBtn");
+
+            reproductores.forEach(function (reproductor) {
+                reproductor.addEventListener("play", function () {
+                    if (fondo && !fondo.paused) {
+                        fondo.pause();
+                        if (botonMusica) botonMusica.textContent = "🔊 Música: OFF";
+                    }
+
+                    reproductores.forEach(function (otro) {
+                        if (otro !== reproductor && !otro.paused) {
+                            otro.pause();
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+
+    <script>
+        // Directorio docente: búsqueda, filtro, resultados dinámicos y limpiar.
+        document.addEventListener("DOMContentLoaded", function () {
+            const buscador = document.getElementById("buscarDocente");
+            const filtro = document.getElementById("filtroAcademia");
+            const limpiar = document.getElementById("limpiarDocentes");
+            const tarjetas = Array.from(document.querySelectorAll(".docente-card"));
+            const sinResultados = document.getElementById("sinResultados");
+
+            function filtrarDocentes() {
+                if (!buscador || !filtro) return;
+                const texto = buscador.value.toLowerCase().trim();
+                const area = filtro.value;
+                let visibles = 0;
+                tarjetas.forEach(function (tarjeta) {
+                    const datos = (tarjeta.dataset.nombre + " " + tarjeta.dataset.materia).toLowerCase();
+                    const coincideTexto = datos.includes(texto);
+                    const coincideArea = area === "todas" || tarjeta.dataset.area === area;
+                    const mostrar = coincideTexto && coincideArea;
+                    tarjeta.hidden = !mostrar;
+                    if (mostrar) visibles++;
+                });
+                if (sinResultados) sinResultados.hidden = visibles !== 0;
+            }
+
+            if (buscador) buscador.addEventListener("input", filtrarDocentes);
+            if (filtro) filtro.addEventListener("change", filtrarDocentes);
+            if (limpiar) limpiar.addEventListener("click", function () {
+                buscador.value = "";
+                filtro.value = "todas";
+                filtrarDocentes();
+                buscador.focus();
+            });
+        });
+    </script>
+
+    <script>
+        function mostrarInfoPlantel(id, boton) {
+            const panel = document.getElementById(id);
+            if (!panel) return;
+
+            const tarjeta = boton.closest('.plantel-card');
+            const abierto = !panel.hidden;
+
+            document.querySelectorAll('.detalle-plantel').forEach(function (otroPanel) {
+                if (otroPanel !== panel) {
+                    otroPanel.hidden = true;
+                    const otraTarjeta = otroPanel.closest('.plantel-card');
+                    if (otraTarjeta) otraTarjeta.classList.remove('plantel-expandido');
+                    const otroBoton = otraTarjeta && otraTarjeta.querySelector('.boton-info-plantel');
+                    if (otroBoton) {
+                        otroBoton.setAttribute('aria-expanded', 'false');
+                        const simbolo = otroBoton.querySelector('span');
+                        if (simbolo) simbolo.textContent = '＋';
+                    }
+                }
+            });
+
+            panel.hidden = abierto;
+            if (tarjeta) tarjeta.classList.toggle('plantel-expandido', !abierto);
+            boton.setAttribute('aria-expanded', String(!abierto));
+            const texto = boton.querySelector('span');
+            if (texto) texto.textContent = abierto ? '＋' : '−';
+        }
+    </script>
+
+</body>
+</html>
